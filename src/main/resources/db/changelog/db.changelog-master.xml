@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <include file="db/changelog/version/00001_create_currency_table.sql"/>
+    <include file="db/changelog/version/00002_create_outer_system_table.sql"/>
+    <include file="db/changelog/version/00003_create_cur_rate_pack_table.sql"/>
+    <include file="db/changelog/version/00004_create_cur_rate_table.sql"/>
+    <include file="db/changelog/version/00005_fill_outer_system_table.sql"/>
+    <include file="db/changelog/version/00006_add_column_currency_table.sql"/>
+    <include file="db/changelog/version/00007_fill_currency_table.sql"/>
+
+</databaseChangeLog>

@@ -1,0 +1,1 @@
+ALTER TABLE public.currency ADD used boolean NULL DEFAULT false;
